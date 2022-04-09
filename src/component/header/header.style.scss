@@ -1,0 +1,21 @@
+.header {
+  width: calc(100% - 25px);
+  height: 54px;
+  padding-right: 25px;
+  display: flex;
+  align-items: flex-start;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #183a1d;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  .sign-out-btn{
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+  }
+}

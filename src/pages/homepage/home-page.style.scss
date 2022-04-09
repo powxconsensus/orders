@@ -1,0 +1,85 @@
+.home-page {
+  margin-top: 55px; 
+  height: calc(100% - 55px);
+  width: 100%;
+  .right-order-container{
+    height: calc(100% - 55px);
+    top:12;
+    right: 0;
+    position: fixed;
+    width: calc(80% - 105px);
+  }
+  .add-order-btn{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin: 0px 0px 20px 20px;
+    font-size: 100px;
+    cursor: pointer;
+    color: rgb(239, 239, 247);
+    &:hover{
+      color: blue;
+
+    }
+  }
+
+  .left-profile-container{
+    background-color: #183a1d;
+    margin-top: -55px;
+    position: fixed;
+    height: calc(100% - 60px);
+    width: calc(20% - 60px);
+    padding: 30px;
+    min-width: 300px;
+    .user-details{
+      margin-top:40px;
+      height: 140px;
+      margin-left: -20px;
+      width: calc(100% + 40px);
+      background-color: #e1eedd;
+      bottom: 0;
+      border-radius: 0px 0px 20px 20px;
+      display: flex;
+      align-items: center;
+      padding-top: 20px;
+      flex-direction: column;
+      .user-name{
+        font-size: 20px;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: 1000;
+      }
+    }
+    .profile-container{
+      width: calc(100% - 40px);
+      height: 260px;
+      background-color: #e1eedd;
+      border-radius: 20px;
+      padding: 20px;
+      
+      .profile-image{
+        margin-left: -20px;
+        width: calc(100% + 40px);
+        background-color: #e1eedd;
+        height: 100px;
+        border-radius: 20px 20px 0px 0px;
+        margin-top: -20px;
+        position: relative;
+        .user-photo{
+          position: absolute;
+          bottom: -40px;
+          width: 100%;
+          height: 80px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img{
+            border-radius: 50%;
+            height: 80px; 
+            width: 80px;
+          }
+          
+        }
+      }
+    }
+  }
+}

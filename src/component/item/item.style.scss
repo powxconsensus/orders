@@ -1,0 +1,21 @@
+.options-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    .opbtn{
+        &:hover{
+            color:green
+        }
+    }
+}
+.deleted-product{
+    width: calc(100% + 620px);
+    background-color: #f0a04b;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
